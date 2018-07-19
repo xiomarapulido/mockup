@@ -1,0 +1,113 @@
+ #content-login {
+    width: 100%;
+    height: 100%;  
+    background-color: #ee7e00;      
+ } 
+
+ .logo{ 
+    width: 90px;
+    margin-top: 10%;
+ }
+
+ .title{
+    margin-top: 7%; 
+    color: white;
+    font-weight: bold;
+ }
+
+
+.lbl-empresas{
+    font-size: 17px; 
+    letter-spacing: 1.2px; 
+    margin-left: 50px
+ }
+
+.lbl-personas{
+    font-weight: bold; 
+    font-size: 17px; 
+    letter-spacing: 1.2px;
+ }
+
+ .lbl-login{
+    font-weight: bold; 
+    font-size: 13px; 
+    letter-spacing: 1.2px;
+    color: white;
+ }
+
+ #btnUsuario::placeholder {
+    color:#c3bec1;
+    opacity: 1; /* Firefox */
+    font-size: 13px; 
+}
+
+#btnUsuario:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #c3bec1; 
+   font-size: 13px; 
+}
+
+#btnUsuario::-ms-input-placeholder { /* Microsoft Edge */
+   color: #c3bec1; 
+   font-size: 13px; 
+}
+
+#btnContraseña{
+    width: 45%; height: 100%;
+    border: none;
+}
+#btnContraseña::placeholder {
+    color:black;
+    opacity: 1; /* Firefox */
+    font-size: 45px; 
+    letter-spacing: -3px;
+    margin-left: 200px;
+}
+
+#btnContraseña:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black; 
+   font-size: 45px;    
+   letter-spacing: -3px;
+}
+
+#btnContraseña::-ms-input-placeholder { /* Microsoft Edge */
+   color: black; 
+   font-size: 45px;    
+   letter-spacing: -3px;
+}
+
+.menu-login{
+    color:white;  
+    margin-top: 10%;
+}
+
+.mt-5{
+    margin-top: 5%;
+}
+
+.h-50{
+    height: 50px;
+}
+
+.black{
+    color: black;
+}
+
+.padding-0{
+    padding: 0px;
+}
+
+.lbl-olvido{
+    font-size: 12px; 
+    color:#31577d;
+}
+
+.ingresar{
+    padding: 0px;
+    background-color: transparent; 
+    border: 1px solid white;
+}
+
+.registrar{
+    background-color: transparent; 
+    border: none;
+}

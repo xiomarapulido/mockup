@@ -1,0 +1,74 @@
+.orange{
+    background-color: #e66300; 
+}
+.title{
+    color: white;
+    font-weight: bold;
+ }
+ .menu{
+    color:white;  
+    margin-top: 2%;
+}
+.space-letter{
+    letter-spacing: 1.1px; 
+}
+.lbl-register{
+    letter-spacing: 1.2px;  
+    color: #989492; 
+    font-family:ItauText_A_Bd
+}
+
+
+#btn-tarjeta{
+    font-family:a;
+   
+}
+
+#btnUsuario{
+    color:black;
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+.lbl-footer{
+    font-family:ItauText_A_Bd
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .postion-card{
+         position: absolute; 
+        margin-top: 35% 
+    }
+
+    #regster-container{
+        margin-top: 40%; 
+        margin-bottom: 25%
+    }
+} 
+
+@media screen and (min-width: 710px){
+    .postion-card{
+        position: absolute;  
+        margin-top: 22% 
+   }
+
+   #regster-container{
+    margin-top: 35%; 
+    margin-bottom: 25%
+  }
+}
+
+@media screen and (min-width: 1200px){
+    .postion-card{
+        position: absolute;  
+        margin-top: 12% 
+   }
+
+   #regster-container{
+    margin-top: 15%; 
+  }
+}
+
+

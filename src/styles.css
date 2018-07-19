@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+@media only screen and (max-width: 1500px) {
+    html {
+        height: 100%;
+   }
+   body {
+       background-color: #FF9900;
+       height: 100%;
+       margin-top: 0px;
+   }
+} 
+ 
+.bold{
+    font-weight: bold;
+}
+
+.white{
+    background-color: white !important
+}
+
+@font-face{
+    font-family:itaufonts_master_24px_v1;
+    src: url(./assets/fuentes/itaufonts_master_24px_v1.ttf)
+}
+
+@font-face{
+    font-family:ItauText_A_Bd;
+    src: url(./assets/fuentes/ItauText_A_Bd.ttf)
+} 
+
+
+@font-face{
+    font-family:ItauText_A_Lt;
+    src: url(./assets/fuentes/ItauText_A_Lt.ttf)
+} 
+
+@font-face{
+    font-family:ItauText_A_Rg;
+    src: url(./assets/fuentes/ItauText_A_Rg.ttf)
+} 
+
+@font-face{
+    font-family:ItauText_A_XBd;
+    src: url(./assets/fuentes/ItauText_A_XBd.ttf)
+} 
+
+@font-face{
+    font-family:a;
+    src: url(./assets/fuentes/HALTER__.ttf)
+} 
+
+@font-face{
+    font-family:b;
+    src: url(./assets/fuentes/HALTERA_.ttf)
+} 
+
+@font-face{
+    font-family:c;
+    src: url(./assets/fuentes/HALTERP_.ttf)
+} 
+
